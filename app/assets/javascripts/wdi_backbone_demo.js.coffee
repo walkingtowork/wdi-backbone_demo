@@ -3,6 +3,7 @@ window.WdiBackboneDemo =
   Collections: {}
   Views: {}
   Routers: {}
+
   initialize: ->
     new WdiBackboneDemo.Routers.Questions
     Backbone.history.start()
